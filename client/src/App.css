@@ -1,0 +1,232 @@
+body {
+	background-color: #b9b9b9 !important
+}
+
+#root {
+  max-width: 1280px;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 4em;
+  padding: 0.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.app-container {
+	height: 80%;
+}
+
+.container {
+	align-content: center;
+}
+
+.card {
+	height: 370px;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 400px;
+	background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span {
+	font-size: 60px;
+	margin-left: 10px;
+	color: #FFC312;
+}
+
+.social_icon span:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.card-header h3 {
+	color: white;
+}
+
+.social_icon {
+	position: absolute;
+	right: 20px;
+	top: -45px;
+}
+
+.input-group-prepend span {
+	width: 50px;
+	background-color: #FFC312;
+	color: black;
+	border:0 !important;
+}
+
+input:focus {
+	outline: 0 0 0 0  !important;
+	box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+	color: white;
+}
+
+.remember input {
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.login_btn {
+	color: black;
+	background-color: #FFC312;
+	width: 100px;
+}
+
+.login_btn:hover {
+	color: black;
+	background-color: white;
+}
+
+.links {
+	color: white;
+}
+
+.links a {
+	margin-left: 4px;
+}
+
+/* navbar */
+.nav-item {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav-item .nav-link {
+	display: inline;
+}
+
+/* onboarding */
+.container.onboarding section input {
+	background-color: white;
+}
+
+/* swiper */
+.swipe {
+  /*position: absolute;*/
+  height: 50px;
+}
+
+.card-container {
+  max-width: 260px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swipe .card {
+  position: relative;
+  background-color: #000;
+  width: 80vw;
+  max-width: 260px;
+  height: 300px;
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+
+.swipe:last-of-type {
+
+}
+
+.swipe .card h3 {
+  bottom: 0;
+  margin: 10px;
+  color: #fff;
+  background-color: #0000005e;
+}
+
+.swiper .buttons {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+
+@media (max-width: 625px) {
+  .swiper .buttons {
+    flex-direction: column;
+  }
+}
+
+.swiper .buttons button {
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #9198e5;
+  transition: 200ms;
+  margin: 5px;
+  font-weight: bolder;
+  width: 90px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+}
+
+.swiper .buttons button:hover {
+  transform: scale(1.05);
+}
+
+/* Messages */
+.matches-wrapper {
+	background-color: #eee;
+	border-right: 2px #ccc solid;
+	padding-bottom: 10px;
+}
+
+.messages-wrapper {
+	background-color: #eee;
+}
+
+.messages-container {
+	background-color: white;
+}
+
+.match-img-container {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}
+
+.match-name-container h5 {
+	position: relative;
+	top: 25%;
+}
